@@ -21,15 +21,3 @@
     animation: fadeIn 500ms ease-in-out;
 }
 
-/*********** Responsive ************/
-
-@media (max-width: 1024px) {
-    .background {
-        object-fit: contain;
-    }
-
-    video, img {
-        width: 100%;
-        height: auto;
-    }
-}
